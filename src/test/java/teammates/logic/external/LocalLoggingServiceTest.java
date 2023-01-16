@@ -9,17 +9,14 @@ import teammates.test.BaseTestCase;
 public class LocalLoggingServiceTest extends BaseTestCase {
     @Test
     public void testIsRequestFilterSatisfied() {
-        //CT1
         assertTrue(new LocalLoggingService().isRequestFilterSatisfied(
                 null, null, null,
                 null, null, null, null));
 
-        //CT2
         assertFalse(new LocalLoggingService().isRequestFilterSatisfied(
                 new EmailSentLogDetails(), "ABC", null,
                 null, null, null, null));
 
-        //CT3
         RequestLogDetails requestLogDetails = new RequestLogDetails();
         requestLogDetails.setActionClass("abc");
         assertFalse(new LocalLoggingService().isRequestFilterSatisfied(
@@ -32,7 +29,6 @@ public class LocalLoggingServiceTest extends BaseTestCase {
                 null, null, null, null
         ));
 
-        //CT4
         requestLogDetails.setResponseStatus(200);
         assertFalse(new LocalLoggingService().isRequestFilterSatisfied(
                 requestLogDetails, null, null, "201",
