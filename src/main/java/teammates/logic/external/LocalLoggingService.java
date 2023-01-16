@@ -146,7 +146,7 @@ public class LocalLoggingService implements LogService {
         return exceptionDetails.getExceptionClass().equals(exceptionClassFilter);
     }
 
-    private boolean isRequestFilterSatisfied(LogDetails details, String actionClassFilter,
+    public boolean isRequestFilterSatisfied(LogDetails details, String actionClassFilter,
             String latencyFilter, String statusFilter, String regkeyFilter, String emailFilter, String googleIdFilter) {
         if (actionClassFilter == null && latencyFilter == null && statusFilter == null
                 && regkeyFilter == null && emailFilter == null && googleIdFilter == null) {
