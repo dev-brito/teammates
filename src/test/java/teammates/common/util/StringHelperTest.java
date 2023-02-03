@@ -218,4 +218,24 @@ public class StringHelperTest extends BaseTestCase {
         assertFalse(StringHelper.isCorrectSignature(null, signature));
         assertFalse(StringHelper.isCorrectSignature(invalid, signature));
     }
+
+    @Test
+    public void testAbbreviateStrings(){
+        assertEquals("Oi, es...", StringHelper.abbreviateString("Oi, esta é uma string de teste", 6));
+    }
+
+    @Test
+    public void testAbbreviateNullString(){
+        assertEquals("", StringHelper.abbreviateString(null, 10));
+    }
+
+    @Test
+    public void testAbbreviateEmptyString(){
+        assertEquals("", StringHelper.abbreviateString("", 123));
+    }
+
+    @Test
+    public void testAbbreviateStringLengthLessThanN() {
+        assertEquals("ABC", StringHelper.abbreviateString("ABC", 5));
+    }
 }

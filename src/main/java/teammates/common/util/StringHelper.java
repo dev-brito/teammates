@@ -8,6 +8,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+import javax.annotation.Nullable;
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
@@ -31,10 +32,20 @@ public final class StringHelper {
 
     /**
      * Checks whether the input string is empty or equals {@code null}.
+     *
      * @param s The string to be checked
      */
     public static boolean isEmpty(String s) {
         return s == null || s.isEmpty();
+    }
+
+    static String abbreviateString(String s, int n) {
+        if (isEmpty(s)) return "";
+        StringBuilder abbreviated = new StringBuilder();
+        String sub = s.substring(0, Math.min(n, s.length()));
+        abbreviated.append(sub);
+        if (s.length() > n) abbreviated.append("...");
+        return abbreviated.toString();
     }
 
     /**
@@ -47,6 +58,7 @@ public final class StringHelper {
 
     /**
      * Checks whether the input string matches the regex.
+     *
      * @param input The string to be matched
      * @param regex The regex  used for the matching
      */
@@ -65,7 +77,8 @@ public final class StringHelper {
 
     /**
      * Trims head of the String if it is longer than specified Length.
-     *  E.g., String "12345678" with maximumStringLength = 6, returns "345678"
+     * E.g., String "12345678" with maximumStringLength = 6, returns "345678"
+     *
      * @param maximumStringLength - maximum required length of the string
      * @return String with at most maximumStringLength length
      */
@@ -100,7 +113,7 @@ public final class StringHelper {
     /**
      * Verifies the HMAC SHA-1 signature against a given value.
      *
-     * @param value The value to be checked
+     * @param value     The value to be checked
      * @param signature The signature in hex-string format
      * @return True if signature matches value
      */
@@ -137,7 +150,7 @@ public final class StringHelper {
      * @param message the ciphertext as a hexadecimal string
      * @return the plaintext
      * @throws InvalidParametersException if the ciphertext is invalid.
-     * @throws RuntimeException if the decryption fails for any other reason, such as {@code Cipher} initialization failure.
+     * @throws RuntimeException           if the decryption fails for any other reason, such as {@code Cipher} initialization failure.
      */
     public static String decrypt(String message) throws InvalidParametersException {
         try {
@@ -158,6 +171,7 @@ public final class StringHelper {
     /**
      * Converts and concatenates a list of objects to a single string, separated by line breaks.
      * The conversion is done by using the {@link Object#toString()} method.
+     *
      * @return Concatenated string.
      */
     public static <T> String toString(List<T> list) {
@@ -167,6 +181,7 @@ public final class StringHelper {
     /**
      * Converts and concatenates a list of objects to a single string, separated by the given delimiter.
      * The conversion is done by using the {@link Object#toString()} method.
+     *
      * @return Concatenated string.
      */
     public static <T> String toString(List<T> list, String delimiter) {
@@ -186,6 +201,7 @@ public final class StringHelper {
     /**
      * Trims the string and reduces consecutive white spaces to only one space.
      * Example: " a   a  " --> "a a".
+     *
      * @return processed string, returns null if parameter is null
      */
     public static String removeExtraSpace(String str) {
@@ -199,8 +215,8 @@ public final class StringHelper {
      * Replaces every character in {@code str} that does not match
      * {@code regex} with the character {@code replacement}.
      *
-     * @param str String to be replaced.
-     * @param regex Pattern that every character is to be matched against.
+     * @param str         String to be replaced.
+     * @param regex       Pattern that every character is to be matched against.
      * @param replacement Character unmatching characters should be replaced with.
      * @return String with all unmatching characters replaced; null if input is null.
      */
