@@ -5,7 +5,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when feedback
   InstructorPermissionRole={[Function Object]}
   SortBy={[Function Object]}
   SortOrder={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   activeModal={[Function NgbActiveModal]}
   copyClickedEvent={[Function EventEmitter_]}
   courses={[Function Array]}
@@ -25,22 +25,16 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when feedback
     </h4>
     <button
       aria-label="Close"
-      class="close"
+      class="btn-close"
       id="btn-close-modal"
       type="button"
-    >
-      <span
-        aria-hidden="true"
-      >
-        ×
-      </span>
-    </button>
+    />
   </div><div
     class="modal-body"
     id="copy-instructor-modal"
   >
     <div
-      class="col-12 mb-3 text-md-right"
+      class="col-12 mb-3 text-md-end"
     >
       <strong
         class="d-inline"
@@ -76,7 +70,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when feedback
         class="card"
       >
         <div
-          class="card-header cursor-pointer text-white bg-info"
+          class="card-header cursor-pointer bg-info"
         >
           <strong
             class="text-break"
@@ -148,7 +142,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
   InstructorPermissionRole={[Function Object]}
   SortBy={[Function Object]}
   SortOrder={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   activeModal={[Function NgbActiveModal]}
   copyClickedEvent={[Function EventEmitter_]}
   courses={[Function Array]}
@@ -168,22 +162,16 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
     </h4>
     <button
       aria-label="Close"
-      class="close"
+      class="btn-close"
       id="btn-close-modal"
       type="button"
-    >
-      <span
-        aria-hidden="true"
-      >
-        ×
-      </span>
-    </button>
+    />
   </div><div
     class="modal-body"
     id="copy-instructor-modal"
   >
     <div
-      class="col-12 mb-3 text-md-right"
+      class="col-12 mb-3 text-md-end"
     >
       <strong
         class="d-inline"
@@ -219,7 +207,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
         class="card"
       >
         <div
-          class="card-header cursor-pointer text-white bg-info"
+          class="card-header cursor-pointer bg-info"
         >
           <strong
             class="text-break"
@@ -251,59 +239,75 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
                   id="copy-instructor-table"
                 >
                   <thead
-                    class="text-white bg-info"
+                    class="bg-info"
                   >
                     <tr>
                       <th>
                         #
                       </th>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                         Instructor Name 
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                           Instructor Name 
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                         Instructor Email 
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                           Instructor Email 
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                         Displayed to Student As 
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                           Displayed to Student As 
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                         Access Level 
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                           Access Level 
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                     </tr>
                   </thead>
@@ -312,7 +316,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
                       <td>
                         <div>
                           <input
-                            class="form-control no-shadow ng-untouched ng-pristine ng-valid"
+                            class="form-check-input no-shadow ng-untouched ng-pristine ng-valid"
                             id="enabled-checkbox"
                             type="checkbox"
                           />
@@ -335,7 +339,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
                       <td>
                         <div>
                           <input
-                            class="form-control no-shadow ng-untouched ng-pristine ng-valid"
+                            class="form-check-input no-shadow ng-untouched ng-pristine ng-valid"
                             id="enabled-checkbox"
                             type="checkbox"
                           />
@@ -357,7 +361,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
                   </tbody>
                 </table>
                 <button
-                  class="btn btn-secondary float-right mt-2 mb-3"
+                  class="btn btn-secondary float-end mt-2 mb-3"
                 >
                   <i
                     aria-hidden="true"
@@ -398,7 +402,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
   InstructorPermissionRole={[Function Object]}
   SortBy={[Function Object]}
   SortOrder={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   activeModal={[Function NgbActiveModal]}
   copyClickedEvent={[Function EventEmitter_]}
   courses={[Function Array]}
@@ -418,22 +422,16 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
     </h4>
     <button
       aria-label="Close"
-      class="close"
+      class="btn-close"
       id="btn-close-modal"
       type="button"
-    >
-      <span
-        aria-hidden="true"
-      >
-        ×
-      </span>
-    </button>
+    />
   </div><div
     class="modal-body"
     id="copy-instructor-modal"
   >
     <div
-      class="col-12 mb-3 text-md-right"
+      class="col-12 mb-3 text-md-end"
     >
       <strong
         class="d-inline"
@@ -469,7 +467,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap when instruct
         class="card"
       >
         <div
-          class="card-header cursor-pointer text-white bg-info"
+          class="card-header cursor-pointer bg-info"
         >
           <strong
             class="text-break"
@@ -538,7 +536,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap with courses 
   InstructorPermissionRole={[Function Object]}
   SortBy={[Function Object]}
   SortOrder={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   activeModal={[Function NgbActiveModal]}
   copyClickedEvent={[Function EventEmitter_]}
   courses={[Function Array]}
@@ -558,22 +556,16 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap with courses 
     </h4>
     <button
       aria-label="Close"
-      class="close"
+      class="btn-close"
       id="btn-close-modal"
       type="button"
-    >
-      <span
-        aria-hidden="true"
-      >
-        ×
-      </span>
-    </button>
+    />
   </div><div
     class="modal-body"
     id="copy-instructor-modal"
   >
     <div
-      class="col-12 mb-3 text-md-right"
+      class="col-12 mb-3 text-md-end"
     >
       <strong
         class="d-inline"
@@ -609,7 +601,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap with courses 
         class="card"
       >
         <div
-          class="card-header cursor-pointer text-white bg-info"
+          class="card-header cursor-pointer bg-info"
         >
           <strong
             class="text-break"
@@ -637,7 +629,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap with courses 
         class="card"
       >
         <div
-          class="card-header cursor-pointer text-white bg-primary"
+          class="card-header cursor-pointer bg-primary text-white"
         >
           <strong
             class="text-break"
@@ -687,7 +679,7 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap with default 
   InstructorPermissionRole={[Function Object]}
   SortBy={[Function Object]}
   SortOrder={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   activeModal={[Function NgbActiveModal]}
   copyClickedEvent={[Function EventEmitter_]}
   courses={[Function Array]}
@@ -707,16 +699,10 @@ exports[`CopyInstructorsFromOtherCoursesModalComponent should snap with default 
     </h4>
     <button
       aria-label="Close"
-      class="close"
+      class="btn-close"
       id="btn-close-modal"
       type="button"
-    >
-      <span
-        aria-hidden="true"
-      >
-        ×
-      </span>
-    </button>
+    />
   </div><div
     class="modal-body"
     id="copy-instructor-modal"

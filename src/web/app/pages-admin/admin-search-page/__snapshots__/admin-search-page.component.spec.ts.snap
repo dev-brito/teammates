@@ -2,7 +2,7 @@
 
 exports[`AdminSearchPageComponent should snap with a deleted course 1`] = `
 <tm-admin-search-page
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   accountRequests={[Function Array]}
   accountService={[Function AccountService]}
   emailGenerationService={[Function EmailGenerationService]}
@@ -32,27 +32,24 @@ exports[`AdminSearchPageComponent should snap with a deleted course 1`] = `
         class="input-group"
       >
         <input
+          aria-label="Search"
           class="form-control ng-untouched ng-pristine ng-valid"
           id="search-box"
           type="text"
         />
-        <div
-          class="input-group-append"
+        <button
+          class="btn btn-primary input-group-text"
+          id="search-button"
         >
-          <button
-            class="btn btn-primary"
-            id="search-button"
-          >
-            Search
-          </button>
-        </div>
+          Search
+        </button>
       </div>
     </div>
   </div><div
     class="card bg-light top-padded"
   >
     <div
-      class="card-header bg-info text-white"
+      class="card-header bg-info"
     >
       <strong>
         Instructors Found
@@ -121,6 +118,7 @@ exports[`AdminSearchPageComponent should snap with a deleted course 1`] = `
                 class="col-sm-1"
               >
                 <button
+                  aria-label="Expand"
                   class="btn"
                 >
                   <i
@@ -252,6 +250,7 @@ exports[`AdminSearchPageComponent should snap with a deleted course 1`] = `
                 class="col-sm-1"
               >
                 <button
+                  aria-label="Expand"
                   class="btn"
                 >
                   <i
@@ -330,7 +329,7 @@ exports[`AdminSearchPageComponent should snap with a deleted course 1`] = `
 
 exports[`AdminSearchPageComponent should snap with a search key 1`] = `
 <tm-admin-search-page
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   accountRequests={[Function Array]}
   accountService={[Function AccountService]}
   emailGenerationService={[Function EmailGenerationService]}
@@ -360,20 +359,17 @@ exports[`AdminSearchPageComponent should snap with a search key 1`] = `
         class="input-group"
       >
         <input
+          aria-label="Search"
           class="form-control ng-untouched ng-pristine ng-valid"
           id="search-box"
           type="text"
         />
-        <div
-          class="input-group-append"
+        <button
+          class="btn btn-primary input-group-text"
+          id="search-button"
         >
-          <button
-            class="btn btn-primary"
-            id="search-button"
-          >
-            Search
-          </button>
-        </div>
+          Search
+        </button>
       </div>
     </div>
   </div>
@@ -382,7 +378,7 @@ exports[`AdminSearchPageComponent should snap with a search key 1`] = `
 
 exports[`AdminSearchPageComponent should snap with an expanded account requests table 1`] = `
 <tm-admin-search-page
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   accountRequests={[Function Array]}
   accountService={[Function AccountService]}
   emailGenerationService={[Function EmailGenerationService]}
@@ -412,20 +408,17 @@ exports[`AdminSearchPageComponent should snap with an expanded account requests 
         class="input-group"
       >
         <input
+          aria-label="Search"
           class="form-control ng-untouched ng-pristine ng-valid"
           id="search-box"
           type="text"
         />
-        <div
-          class="input-group-append"
+        <button
+          class="btn btn-primary input-group-text"
+          id="search-button"
         >
-          <button
-            class="btn btn-primary"
-            id="search-button"
-          >
-            Search
-          </button>
-        </div>
+          Search
+        </button>
       </div>
     </div>
   </div><div
@@ -532,7 +525,7 @@ exports[`AdminSearchPageComponent should snap with an expanded account requests 
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
               </ul>
@@ -547,7 +540,7 @@ exports[`AdminSearchPageComponent should snap with an expanded account requests 
 
 exports[`AdminSearchPageComponent should snap with an expanded instructor table 1`] = `
 <tm-admin-search-page
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   accountRequests={[Function Array]}
   accountService={[Function AccountService]}
   emailGenerationService={[Function EmailGenerationService]}
@@ -577,27 +570,24 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
         class="input-group"
       >
         <input
+          aria-label="Search"
           class="form-control ng-untouched ng-pristine ng-valid"
           id="search-box"
           type="text"
         />
-        <div
-          class="input-group-append"
+        <button
+          class="btn btn-primary input-group-text"
+          id="search-button"
         >
-          <button
-            class="btn btn-primary"
-            id="search-button"
-          >
-            Search
-          </button>
-        </div>
+          Search
+        </button>
       </div>
     </div>
   </div><div
     class="card bg-light top-padded"
   >
     <div
-      class="card-header bg-info text-white"
+      class="card-header bg-info"
     >
       <strong>
         Instructors Found
@@ -663,6 +653,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
                 class="col-sm-1"
               >
                 <button
+                  aria-label="Collapse"
                   class="btn"
                 >
                   <i
@@ -732,7 +723,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -743,7 +734,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -754,7 +745,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -765,7 +756,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -776,7 +767,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -787,7 +778,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
               </ul>
@@ -802,7 +793,7 @@ exports[`AdminSearchPageComponent should snap with an expanded instructor table 
 
 exports[`AdminSearchPageComponent should snap with an expanded student table 1`] = `
 <tm-admin-search-page
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   accountRequests={[Function Array]}
   accountService={[Function AccountService]}
   emailGenerationService={[Function EmailGenerationService]}
@@ -832,20 +823,17 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
         class="input-group"
       >
         <input
+          aria-label="Search"
           class="form-control ng-untouched ng-pristine ng-valid"
           id="search-box"
           type="text"
         />
-        <div
-          class="input-group-append"
+        <button
+          class="btn btn-primary input-group-text"
+          id="search-button"
         >
-          <button
-            class="btn btn-primary"
-            id="search-button"
-          >
-            Search
-          </button>
-        </div>
+          Search
+        </button>
       </div>
     </div>
   </div><div
@@ -919,6 +907,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
                 class="col-sm-1"
               >
                 <button
+                  aria-label="Collapse"
                   class="btn"
                 >
                   <i
@@ -998,7 +987,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
                   </strong>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -1016,7 +1005,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
                   </button>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -1035,7 +1024,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
                   </button>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -1054,7 +1043,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
                   </button>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -1073,7 +1062,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
                   </button>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
                 <li
@@ -1092,7 +1081,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
                   </button>
                   <input
                     class="form-control"
-                    readonly=""
+                    disabled=""
                   />
                 </li>
               </ul>
@@ -1107,7 +1096,7 @@ exports[`AdminSearchPageComponent should snap with an expanded student table 1`]
 
 exports[`AdminSearchPageComponent should snap with default fields 1`] = `
 <tm-admin-search-page
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   accountRequests={[Function Array]}
   accountService={[Function AccountService]}
   emailGenerationService={[Function EmailGenerationService]}
@@ -1137,20 +1126,17 @@ exports[`AdminSearchPageComponent should snap with default fields 1`] = `
         class="input-group"
       >
         <input
+          aria-label="Search"
           class="form-control ng-untouched ng-pristine ng-valid"
           id="search-box"
           type="text"
         />
-        <div
-          class="input-group-append"
+        <button
+          class="btn btn-primary input-group-text"
+          id="search-button"
         >
-          <button
-            class="btn btn-primary"
-            id="search-button"
-          >
-            Search
-          </button>
-        </div>
+          Search
+        </button>
       </div>
     </div>
   </div>

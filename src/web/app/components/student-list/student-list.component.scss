@@ -7,6 +7,10 @@
   background-color: #DADADA;
 }
 
+.fa-sort {
+  color: white;
+}
+
 /*
 Allow only mouse hover events for the element.
 !important is required to override Bootstrap .disabled class matches
@@ -22,4 +26,23 @@ which usually match 2 classes (eg .btn.disabled)
 
 .sortable-header {
   cursor: pointer;
+
+  i {
+    margin-left: .3em;
+  }
+
+  .fa-stack {
+    width: 20%;
+  }
+
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    font: inherit;
+    cursor: inherit;
+  }
 }

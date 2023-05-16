@@ -4,6 +4,7 @@
 
 .recycle-bin-table {
   margin-bottom: 0;
+  min-width: 700px;
 }
 
 .recycle-bin-table-header {
@@ -14,15 +15,29 @@
 
 .sortable-header {
   cursor: pointer;
+
+  i {
+    margin-left: .3em;
+  }
+
+  .fa-stack {
+    width: 20%;
+  }
+
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    font: inherit;
+    cursor: inherit;
+  }
 }
 
 .actions-cell button {
   margin-right: var(--btn-margin);
-}
-
-.align-row {
-  display: flex;
-  flex-direction: row;
 }
 
 .padding-left-7px {

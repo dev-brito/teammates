@@ -6,7 +6,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when page is still l
   LOGS_RETENTION_PERIOD={[Function Number]}
   LOG_TYPES={[Function Array]}
   SortBy={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   course={[Function Object]}
   courseService={[Function CourseService]}
   dateToday={[Function Object]}
@@ -66,7 +66,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
   LOGS_RETENTION_PERIOD={[Function Number]}
   LOG_TYPES={[Function Array]}
   SortBy={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   course={[Function Object]}
   courseService={[Function CourseService]}
   dateToday={[Function Object]}
@@ -113,7 +113,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="activity-type-dropdown"
             >
               Activity Type
@@ -123,7 +123,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12"
           >
             <select
-              class="form-control col-12 ng-untouched ng-pristine ng-valid"
+              class="form-control form-select col-12 ng-untouched ng-pristine ng-valid"
               id="activity-type-dropdown"
             >
               <option
@@ -164,8 +164,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12 mb-1"
           >
             <label
-              class="font-weight-bold"
-              for="logs-from-datepicker"
+              class="fw-bold"
             >
               Search period from
             </label>
@@ -178,12 +177,14 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
               id="logs-from-datepicker"
             >
               <input
+                aria-label="Date to search from"
                 class="form-control ng-untouched ng-pristine ng-valid"
                 ngbdatepicker=""
                 readonly=""
                 type="text"
               />
               <button
+                aria-label="Change date"
                 class="btn btn-light"
                 type="button"
               >
@@ -199,7 +200,8 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
                 id="logs-from-timepicker"
               >
                 <select
-                  class="form-control ng-untouched ng-pristine ng-valid"
+                  aria-label="Select time"
+                  class="form-control form-select ng-untouched ng-pristine ng-valid"
                 >
                   <option
                     value="1: Object"
@@ -337,7 +339,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="student-name-dropdown"
             >
               Student Name (Optional)
@@ -347,7 +349,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12"
           >
             <select
-              class="form-control col-12 ng-untouched ng-pristine ng-valid"
+              class="form-control form-select col-12 ng-untouched ng-pristine ng-valid"
               id="student-name-dropdown"
             >
               <option
@@ -365,7 +367,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12 mb-1"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="logs-to-datepicker"
             >
               Search period until
@@ -379,12 +381,14 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
               id="logs-to-datepicker"
             >
               <input
+                aria-label="Date to search until"
                 class="form-control ng-untouched ng-pristine ng-valid"
                 ngbdatepicker=""
                 readonly=""
                 type="text"
               />
               <button
+                aria-label="Change date"
                 class="btn btn-light"
                 type="button"
               >
@@ -397,10 +401,12 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
               class="col-md-3"
             >
               <tm-timepicker
+                aria-label="Search period until time"
                 id="logs-to-timepicker"
               >
                 <select
-                  class="form-control ng-untouched ng-pristine ng-valid"
+                  aria-label="Select time"
+                  class="form-control form-select ng-untouched ng-pristine ng-valid"
                 >
                   <option
                     value="1: Object"
@@ -529,7 +535,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
               class="col-md-2"
             >
               <button
-                class="float-right btn btn-primary"
+                class="float-end btn btn-primary"
                 disabled=""
                 id="search-button"
               >
@@ -549,7 +555,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="session-dropdown"
             >
               Feedback Session Name (Optional)
@@ -559,7 +565,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
             class="col-12"
           >
             <select
-              class="form-control col-md-12 ng-untouched ng-pristine ng-valid"
+              class="form-control form-select col-md-12 ng-untouched ng-pristine ng-valid"
               id="session-dropdown"
             >
               <option
@@ -569,7 +575,7 @@ exports[`InstructorStudentActivityLogsComponent should snap when searching for d
           </div>
         </div>
         <div
-          class="row mt-md-1 ml-md-3"
+          class="row mt-md-1 ms-md-3"
         >
           <div
             class="col-12 form-check"
@@ -630,7 +636,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with default fields 
   LOGS_RETENTION_PERIOD={[Function Number]}
   LOG_TYPES={[Function Array]}
   SortBy={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   course={[Function Object]}
   courseService={[Function CourseService]}
   dateToday={[Function Object]}
@@ -690,7 +696,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
   LOGS_RETENTION_PERIOD={[Function Number]}
   LOG_TYPES={[Function Array]}
   SortBy={[Function Object]}
-  __ngContext__={[Function LRootView]}
+  __ngContext__={[Function Number]}
   course={[Function Object]}
   courseService={[Function CourseService]}
   dateToday={[Function Object]}
@@ -737,7 +743,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="activity-type-dropdown"
             >
               Activity Type
@@ -747,7 +753,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12"
           >
             <select
-              class="form-control col-12 ng-untouched ng-pristine ng-valid"
+              class="form-control form-select col-12 ng-untouched ng-pristine ng-valid"
               id="activity-type-dropdown"
             >
               <option
@@ -788,8 +794,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12 mb-1"
           >
             <label
-              class="font-weight-bold"
-              for="logs-from-datepicker"
+              class="fw-bold"
             >
               Search period from
             </label>
@@ -802,12 +807,14 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
               id="logs-from-datepicker"
             >
               <input
+                aria-label="Date to search from"
                 class="form-control ng-untouched ng-pristine ng-valid"
                 ngbdatepicker=""
                 readonly=""
                 type="text"
               />
               <button
+                aria-label="Change date"
                 class="btn btn-light"
                 type="button"
               >
@@ -823,7 +830,8 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
                 id="logs-from-timepicker"
               >
                 <select
-                  class="form-control ng-untouched ng-pristine ng-valid"
+                  aria-label="Select time"
+                  class="form-control form-select ng-untouched ng-pristine ng-valid"
                 >
                   <option
                     value="1: Object"
@@ -961,7 +969,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="student-name-dropdown"
             >
               Student Name (Optional)
@@ -971,7 +979,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12"
           >
             <select
-              class="form-control col-12 ng-untouched ng-pristine ng-valid"
+              class="form-control form-select col-12 ng-untouched ng-pristine ng-valid"
               id="student-name-dropdown"
             >
             </select>
@@ -984,7 +992,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12 mb-1"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="logs-to-datepicker"
             >
               Search period until
@@ -998,12 +1006,14 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
               id="logs-to-datepicker"
             >
               <input
+                aria-label="Date to search until"
                 class="form-control ng-untouched ng-pristine ng-valid"
                 ngbdatepicker=""
                 readonly=""
                 type="text"
               />
               <button
+                aria-label="Change date"
                 class="btn btn-light"
                 type="button"
               >
@@ -1016,10 +1026,12 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
               class="col-md-3"
             >
               <tm-timepicker
+                aria-label="Search period until time"
                 id="logs-to-timepicker"
               >
                 <select
-                  class="form-control ng-untouched ng-pristine ng-valid"
+                  aria-label="Select time"
+                  class="form-control form-select ng-untouched ng-pristine ng-valid"
                 >
                   <option
                     value="1: Object"
@@ -1148,7 +1160,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
               class="col-md-2"
             >
               <button
-                class="float-right btn btn-primary"
+                class="float-end btn btn-primary"
                 disabled=""
                 id="search-button"
               >
@@ -1168,7 +1180,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12"
           >
             <label
-              class="font-weight-bold"
+              class="fw-bold"
               for="session-dropdown"
             >
               Feedback Session Name (Optional)
@@ -1178,7 +1190,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
             class="col-12"
           >
             <select
-              class="form-control col-md-12 ng-untouched ng-pristine ng-valid"
+              class="form-control form-select col-md-12 ng-untouched ng-pristine ng-valid"
               id="session-dropdown"
             >
               <option
@@ -1188,7 +1200,7 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
           </div>
         </div>
         <div
-          class="row mt-md-1 ml-md-3"
+          class="row mt-md-1 ms-md-3"
         >
           <div
             class="col-12 form-check"
@@ -1258,87 +1270,107 @@ exports[`InstructorStudentActivityLogsComponent should snap with results of a se
                   <thead>
                     <tr>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                        <span
-                          container="body"
-                        >
-                          Status
-                        </span>
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                          <span
+                            container="body"
+                          >
+                            Status
+                          </span>
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                       <th
+                        aria-sort="ascending"
                         class="sortable-header"
                       >
-                        <span
-                          container="body"
-                        >
-                          Name
-                        </span>
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                          <i
-                            class="fas fa-sort-up"
-                          />
-                        </span>
+                        <button>
+                          <span
+                            container="body"
+                          >
+                            Name
+                          </span>
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                            <i
+                              class="fas fa-sort-up"
+                            />
+                          </span>
+                        </button>
                       </th>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                        <span
-                          container="body"
-                        >
-                          Email
-                        </span>
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                          <span
+                            container="body"
+                          >
+                            Email
+                          </span>
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                        <span
-                          container="body"
-                        >
-                          Section
-                        </span>
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                          <span
+                            container="body"
+                          >
+                            Section
+                          </span>
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                       <th
+                        aria-sort="none"
                         class="sortable-header"
                       >
-                        <span
-                          container="body"
-                        >
-                          Team
-                        </span>
-                        <span
-                          class="fa-stack"
-                        >
-                          <i
-                            class="fas fa-sort"
-                          />
-                        </span>
+                        <button>
+                          <span
+                            container="body"
+                          >
+                            Team
+                          </span>
+                          <span
+                            aria-hidden="true"
+                            class="fa-stack"
+                          >
+                            <i
+                              class="fas fa-sort"
+                            />
+                          </span>
+                        </button>
                       </th>
                     </tr>
                   </thead>

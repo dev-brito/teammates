@@ -104,6 +104,10 @@
       "username": "The-Lady"
     },
     {
+      "name": "Akanksha",
+      "username": "asn001013"
+    },
+    {
       "name": "Akash Deep",
       "username": "akash1994deep"
     },
@@ -185,6 +189,7 @@
       "username": "Andrew-Lev"
     },
     {
+      "multiple": true,
       "name": "André Alves",
       "username": "andremralves"
     },
@@ -462,6 +467,9 @@
       "username": "cybersol795"
     },
     {
+      "username": "DaMasterM"
+    },
+    {
       "name": "Daniel Esponda",
       "username": "desponda"
     },
@@ -502,6 +510,10 @@
       "username": "delevko"
     },
     {
+      "name": "Delia Barron",
+      "username": "DeliaBarron"
+    },
+    {
       "multiple": true,
       "name": "Devang Gaur",
       "username": "dev-gaur"
@@ -540,11 +552,6 @@
       "username": "pandilladivya"
     },
     {
-      "multiple": true,
-      "name": "Dominic Lim",
-      "username": "domlimm"
-    },
-    {
       "name": "Dominik Leszczenko",
       "username": "k4iz3n1994"
     },
@@ -578,6 +585,10 @@
       "username": "eliotw"
     },
     {
+      "multiple": true,
+      "username": "ellaella12"
+    },
+    {
       "username": "Emp923"
     },
     {
@@ -587,6 +598,10 @@
     {
       "name": "Erik Dodge",
       "username": "dodgees"
+    },
+    {
+      "name": "Erik Hellman",
+      "username": "Trumerik"
     },
     {
       "name": "Ethan Gallagher",
@@ -668,6 +683,10 @@
     {
       "name": "Gonçalo Garcia",
       "username": "GoncaloGarcia"
+    },
+    {
+      "name": "Gordon K",
+      "username": "gordonscottkolb"
     },
     {
       "name": "Greg Hibberd",
@@ -932,6 +951,10 @@
       "username": "Jvsierra"
     },
     {
+      "name": "Judyta N",
+      "username": "judith-n"
+    },
+    {
       "multiple": true,
       "username": "julian1990"
     },
@@ -979,6 +1002,10 @@
     {
       "name": "Kevin Thich",
       "username": "kthich"
+    },
+    {
+      "name": "Khalid Shareef",
+      "username": "Khalid6468"
     },
     {
       "name": "Khan Zishan",
@@ -1215,6 +1242,11 @@
       "username": "Mynk96"
     },
     {
+      "multiple": true,
+      "name": "Meet Zalavadiya",
+      "username": "meet0806"
+    },
+    {
       "name": "Megan Belle",
       "username": "onealml"
     },
@@ -1247,6 +1279,9 @@
       "username": "misaunde"
     },
     {
+      "username": "MMilou24"
+    },
+    {
       "name": "Moaz Baghdadi",
       "username": "moazbaghdadi"
     },
@@ -1276,6 +1311,10 @@
       "username": "Naman-sopho"
     },
     {
+      "name": "Napawan Srisuksawad",
+      "username": "ohmoomtang"
+    },
+    {
       "multiple": true,
       "name": "Nashmia Riaz",
       "username": "nashmia-riaz"
@@ -1291,6 +1330,11 @@
     {
       "name": "Nathan Baihly",
       "username": "ncbaihly"
+    },
+    {
+      "multiple": true,
+      "name": "Naveen Joy",
+      "username": "NaveenJoyGit"
     },
     {
       "multiple": true,
@@ -1323,6 +1367,10 @@
     {
       "name": "Nicolás Marzano",
       "username": "nmmarzano"
+    },
+    {
+      "name": "Niels Gorter",
+      "username": "nielsly"
     },
     {
       "multiple": true,
@@ -1359,6 +1407,11 @@
     },
     {
       "username": "nodermatt"
+    },
+    {
+      "multiple": true,
+      "name": "Nouredine Lamamra",
+      "username": "noreddinelam"
     },
     {
       "name": "Oh Han Gyeol",
@@ -1405,6 +1458,10 @@
     {
       "name": "Parth Natu",
       "username": "parthnatu"
+    },
+    {
+      "name": "Patrick Frank",
+      "username": "pgfrank1"
     },
     {
       "name": "Paweł Bąk",
@@ -1630,6 +1687,9 @@
       "username": "belyabl9"
     },
     {
+      "username": "SetsunaS"
+    },
+    {
       "multiple": true,
       "name": "Shaharyar Shamshi",
       "username": "shaharyar-shamshi"
@@ -1733,6 +1793,10 @@
       "username": "Siddhant085"
     },
     {
+      "name": "Siddhant Kumar Keshri",
+      "username": "quantavoid11"
+    },
+    {
       "multiple": true,
       "name": "Sim Shengming, Eugene"
     },
@@ -1749,6 +1813,10 @@
     {
       "name": "Sowmya Dharani",
       "username": "sowmyadvn"
+    },
+    {
+      "name": "Sravan Kumar Velangi",
+      "username": "sra1kumar-NULL"
     },
     {
       "multiple": true,
@@ -1797,6 +1865,10 @@
       "username": "sudarsangp"
     },
     {
+      "name": "Sudarshan Hegde",
+      "username": "SudarshanSirsi"
+    },
+    {
       "multiple": true,
       "name": "Suhas Bhatt",
       "username": "suhas355"
@@ -1805,6 +1877,10 @@
       "major": true,
       "name": "Sujeet Kumar",
       "username": "sujeet14108"
+    },
+    {
+      "name": "Sumit Shinde",
+      "username": "sumitshinde-84"
     },
     {
       "multiple": true,
@@ -1942,6 +2018,10 @@
       "username": "thngkaiyuan"
     },
     {
+      "name": "Tillman Jex",
+      "username": "tjex"
+    },
+    {
       "username": "tlhuynh"
     },
     {
@@ -1990,6 +2070,10 @@
       "username": "Vaggelis-Malandrakis"
     },
     {
+      "name": "Vahe Aslanyan",
+      "username": "vaheaslanyan"
+    },
+    {
       "name": "Vaibhav Desai"
     },
     {
@@ -2025,6 +2109,10 @@
       "multiple": true,
       "name": "Vishnu H Nair",
       "username": "malayaleecoder"
+    },
+    {
+      "name": "Vitor Manoel",
+      "username": "vitormanoel17"
     },
     {
       "multiple": true,
@@ -2164,6 +2252,36 @@
     }
   ],
   "committers": [
+    {
+      "name": "Cedric Ong",
+      "username": "cedricongjh",
+      "startPeriod": "Feb 2023"
+    },
+    {
+      "name": "Eunice Sim",
+      "username": "EuniceSim142",
+      "startPeriod": "Feb 2023"
+    },
+    {
+      "name": "Jason Qiu",
+      "username": "jasonqiu212",
+      "startPeriod": "Feb 2023"
+    },
+    {
+      "name": "Kevin Foong",
+      "username": "kevin9foong",
+      "startPeriod": "Feb 2023"
+    },
+    {
+      "name": "Neo Wei Qing",
+      "username": "weiquu",
+      "startPeriod": "Feb 2023"
+    },
+    {
+      "name": "Dominic Lim",
+      "username": "domlimm",
+      "startPeriod": "Jul 2022"
+    },
     {
       "name": "Liew Xin Yi",
       "username": "xyliew25",
